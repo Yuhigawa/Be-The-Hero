@@ -15,7 +15,7 @@ routes.get('/profiles', ProfileController.index);
 // Cadastro
 routes.post('/ongs', OngController.create);
 routes.post('/incidents', IncidentController.create);
-routes.post('/session', SessionController.create);
+routes.post('/sessions', SessionController.create);
 
 // Deletar
 routes.delete('/incidents/:id', IncidentController.delete);
