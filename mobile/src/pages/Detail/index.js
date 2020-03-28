@@ -5,7 +5,7 @@ import { useNavigation, useRoute } from '@react-navigation/native'
 import { View, Image, Text, TouchableOpacity, Linking } from 'react-native'
 
 import styles from './styles'
-// import logoImg from '../../assets/logo.png'
+import logoImg from '../../assets/logo.png'
 
 export default function Detail() {
     const navigation = useNavigation()
@@ -38,7 +38,7 @@ export default function Detail() {
     return(
         <View style={ styles.container } >
             <View style={ styles.header } >
-                {/* <Image srouce={ logoImg } /> */}
+                <Image srouce={ logoImg } />
                 
                 <TouchableOpacity onPress={ nativateBack } >
                     <Feather name="arrow-left" size={ 28 }  color="#E02041" />

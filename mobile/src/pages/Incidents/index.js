@@ -1,9 +1,9 @@
-/import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Feather } from '@expo/vector-icons'
 import { useNavigation } from '@react-navigation/native'
 import { View, FlatList, Image, Text, TouchableOpacity } from 'react-native'
 
-// import logoImg from '../../assets/logo.png'
+import logoImg from '../../assets/logo.png'
 import styles from './style'
 import api from '../../services/api'
 
@@ -48,7 +48,7 @@ export default function Incidents() {
     return(
         <View style={ styles.container } >
             <View style={ styles.header } >
-                {/* <Image srouce={ logoImg } /> */}
+                <Image srouce={ logoImg } />
                 <Text style={ styles.headerText } >
                     {/* Total de casos n ta funcionando */}
                     Total de <Text style={ styles.headerTextBold } > { total } casos </Text>
