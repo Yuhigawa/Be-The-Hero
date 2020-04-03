@@ -5,6 +5,13 @@
   <br>
 </h1>
 
+<br>
+
+<p align="center">
+  <img alt="BeTheHero" src=".github/bethehero.png" width="100%">
+</p>
+
+
 <h3 align="center">Be-The-Hero</h4>
 
 <p align="center">
